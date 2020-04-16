@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="sotos.apps.message13033.Activities.MainActivity">
+
+    <item
+        android:id="@+id/action_preferences"
+        android:icon="@drawable/ic_outline_info"
+        android:title="Πληροφορίες"
+        app:showAsAction="always" />
+
+</menu>

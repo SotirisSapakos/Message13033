@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory android:title="Στοιχεία εφαρμογής">
+
+        <Preference
+            android:icon="@drawable/ic_round_code"
+            android:key="preference_open_source"
+            android:summary="Η εφαρμογή Μηνύματος 13033 είναι ανοιχτού κώδικα. Πατήστε εδώ για να δείτε το project!"
+            android:title="Κώδικας εφαρμογής" />
+
+        <Preference
+            android:icon="@drawable/ic_round_storage"
+            android:key="preference_licence"
+            android:summary="Οι βιβλιοθήκες ανοιχτού κώδικα που χρησιμοποιήθηκαν για την υλοποίηση της εφαρμογής καθώς και οι άδειες χρήσης τους."
+            android:title="Άδειες βιβλιοθηκών" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="Νομικά και Γενικές Πληροφορίες">
+
+        <Preference
+            android:icon="@drawable/ic_outline_policy"
+            android:key="preference_privacy_policy"
+            android:summary="Η πολιτική απορρήτου της εφαρμογής"
+            android:title="Πολιτική απορρήτου" />
+
+        <Preference
+            android:icon="@drawable/ic_round_android"
+            android:key="preference_app_info"
+            android:summary="Δείτε αναλυτικά τα στοιχεία αυτής της εφαρμογής"
+            android:title="Πληροφορίες εφαρμογής" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

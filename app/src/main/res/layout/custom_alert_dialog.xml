@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rounded_corners">
+
+    <ImageView
+        android:id="@+id/customImageUserNumber"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="15dp"
+        android:src="@drawable/user_1_red" />
+
+    <ImageView
+        android:id="@+id/imageCustomAlertDialog"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_outline_save"
+        android:tint="?colorPrimary" />
+
+    <TextView
+        android:id="@+id/customAlertTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageCustomAlertDialog"
+        android:layout_margin="20dp"
+        android:gravity="center_horizontal"
+        android:text="Title"
+        android:textAlignment="center"
+        android:textColor="?colorPrimary"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/customAlertSummary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/customAlertTitle"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="-20dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center_horizontal"
+        android:text="Τα παρακάτω στοιχεία αποθηκεύτηκαν επιτυχώς τοπικά στην συσκευή σας:"
+        android:textAlignment="center" />
+
+    <ImageView
+        android:id="@+id/iconPersonalLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@+id/customAlertSummary"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/ic_round_account_circle"
+        android:tint="?colorPrimary" />
+
+    <TextView
+        android:id="@+id/customAlertName"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/customAlertSummary"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="5dp"
+        android:layout_toEndOf="@+id/iconPersonalLogo"
+        android:layout_toRightOf="@+id/iconPersonalLogo"
+        android:ellipsize="marquee"
+        android:gravity="center_vertical"
+        android:singleLine="true"
+        android:text="Username"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/iconAddressLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@+id/iconPersonalLogo"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/ic_round_location"
+        android:tint="?colorPrimary" />
+
+    <TextView
+        android:id="@+id/customAlertAddress"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/customAlertName"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="30dp"
+        android:layout_toEndOf="@+id/iconPersonalLogo"
+        android:layout_toRightOf="@+id/iconPersonalLogo"
+        android:ellipsize="marquee"
+        android:gravity="center_vertical"
+        android:singleLine="true"
+        android:text="Adress"
+        android:textSize="16sp" />
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/customAlertButtonClose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/customAlertAddress"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:text="Εντάξει"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@android:color/white"
+        app:backgroundTint="?colorPrimary"
+        app:icon="@drawable/ic_round_check"
+        app:iconTint="@android:color/white" />
+
+</RelativeLayout>
