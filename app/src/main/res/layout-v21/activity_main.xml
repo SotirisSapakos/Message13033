@@ -26,7 +26,7 @@
     <androidx.core.widget.NestedScrollView
         android:id="@+id/nestedScrollViewMain"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
         <RelativeLayout
@@ -612,7 +612,7 @@
         android:id="@+id/fab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end"
+        android:layout_gravity="bottom|center"
         android:layout_margin="@dimen/fab_margin"
         android:text="Αποστολή"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"

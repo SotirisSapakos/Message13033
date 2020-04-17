@@ -49,6 +49,7 @@ public class MainActivity extends AppCompatActivity {
     private ViewPager viewPagerUsers;
     private WormDotsIndicator wormDotsIndicator;
     private CoordinatorLayout coordinatorLayout;
+    private NestedScrollView nestedScrollView;
 
     @SuppressLint("CommitPrefEdits")
     @Override
@@ -56,6 +57,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Toolbar toolbar = findViewById(R.id.toolbar);
+        toolbar.setTitle("Καλώς ορίσατε");
         setSupportActionBar(toolbar);
 
         coordinatorLayout = findViewById(R.id.coordinatorLayout);
@@ -200,6 +202,7 @@ public class MainActivity extends AppCompatActivity {
     private void init() {
         viewPagerUsers = findViewById(R.id.viewpagerUsers);
         wormDotsIndicator = findViewById(R.id.dotIndicator);
+        nestedScrollView = findViewById(R.id.nestedScrollViewMain);
 
         cardReason1 = findViewById(R.id.cardReason1);
         cardReason2 = findViewById(R.id.cardReason2);
@@ -349,7 +352,6 @@ public class MainActivity extends AppCompatActivity {
 
                 name = FirstUserFragment.textName.getText().toString();
                 address = FirstUserFragment.textAddress.getText().toString();
-
                 break;
 
             case 1:

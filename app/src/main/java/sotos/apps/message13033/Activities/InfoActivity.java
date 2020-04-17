@@ -54,7 +54,7 @@ public class InfoActivity extends AppCompatActivity {
 
             final Intent browserIntentOpenSource =
                     new Intent(Intent.ACTION_VIEW,
-                            Uri.parse("https://epharmoge-menumatos-1.flycricket.io/privacy.html"));
+                            Uri.parse("https://github.com/SotirisSapakos/Message13033"));
             assert preference_app_code != null;
             preference_app_code.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
                 @Override

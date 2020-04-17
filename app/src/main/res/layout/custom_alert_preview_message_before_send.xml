@@ -53,7 +53,7 @@
             android:layout_below="@+id/alertName"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
-            android:layout_marginBottom="40dp"
+            android:layout_marginBottom="30dp"
             android:gravity="center_horizontal"
             android:text="Χ Όνομα Επώνυμο Διεύθυνση Αριθμός"
             android:textAlignment="center"
