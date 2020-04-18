@@ -12,4 +12,7 @@ public interface Constants {
     String PREFERENCES_ADDRESS2 = "user_address2";
     String PREFERENCES_USER_SAVE_STATS2 = "user_save_stats2";
 
+    String PLAY_STORE_LINK = "https://play.google.com/store/apps/details?id=sotos.apps.message13033";
+
+
 }

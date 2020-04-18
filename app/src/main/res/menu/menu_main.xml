@@ -9,4 +9,10 @@
         android:title="Πληροφορίες"
         app:showAsAction="always" />
 
+    <item
+        android:id="@+id/action_share_app"
+        android:icon="@drawable/ic_round_share_app"
+        android:title="Κοινή χρήση"
+        app:showAsAction="always" />
+
 </menu>

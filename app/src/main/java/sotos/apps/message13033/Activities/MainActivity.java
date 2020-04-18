@@ -29,6 +29,7 @@ import java.util.ArrayList;
 import java.util.Objects;
 
 import hari.bounceview.BounceView;
+import sotos.apps.message13033.BuildConfig;
 import sotos.apps.message13033.Constants;
 import sotos.apps.message13033.MainActivityFragment.FirstUserFragment;
 import sotos.apps.message13033.MainActivityFragment.SecondUserFragment;
@@ -428,6 +429,23 @@ public class MainActivity extends AppCompatActivity {
         if (id == R.id.action_preferences) {
             startActivity(new Intent(this, InfoActivity.class));
             return true;
+        }
+
+        if (id == R.id.action_share_app) {
+            try {
+                Intent shareIntent = new Intent(Intent.ACTION_SEND);
+                shareIntent.setType("text/plain");
+                shareIntent.putExtra(Intent.EXTRA_SUBJECT, "Message 13033");
+                String shareMessage = "\nΚοινοποίηση Εφαρμογής Μηνύματος 13033\n\n";
+                shareMessage = shareMessage + "https://play.google.com/store/apps/details?id=" +
+                        BuildConfig.APPLICATION_ID + "\n\n";
+                shareIntent.putExtra(Intent.EXTRA_TEXT, shareMessage);
+                startActivity(Intent.createChooser(shareIntent, "Επέλεξε ένα..."));
+            } catch (Exception e) {
+                //if an error occurred then show user the message
+                showSnackBar("Παρουσιάστηκε πρόβλημα κατά την κοινή χρήση της εφαρμογής!"
+                        , false);
+            }
         }
 
         return super.onOptionsItemSelected(item);
