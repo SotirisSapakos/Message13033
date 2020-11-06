@@ -5,4 +5,21 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="title_activity_settings">SettingsActivity</string>
 
+
+    <!-- App strings for translation -->
+    <string name="title_request_no1">Φαρμακείο - Ιατρείο</string>
+    <string name="title_request_no2">Κατάστημα προμήθειας αγαθών</string>
+    <string name="title_request_no3">Τράπεζα</string>
+    <string name="title_request_no4">Παροχή βοήθειας</string>
+    <string name="title_request_no5">Τελετή - Γονείς σε διάσταση</string>
+    <string name="title_request_no6">Άθληση - Ανάγκες κατοικίδιου</string>
+
+    <string name="summary_request_no1">Μετάβαση σε φαρμακείο ή επίσκεψη στον γιατρό, εφόσον αυτό συνιστάται μετά από σχετική επικοινωνία.</string>
+    <string name="summary_request_no2">Μετάβαση σε εν λειτουργία κατάστημα προμηθειών αγαθών πρώτης ανάγκης (σούπερ μάρκετ, μίνι μάρκετ), όπου δεν είναι δυνατή η αποστολή τους.</string>
+    <string name="summary_request_no3">Μετάβαση στην τράπεζα, στο μέτρο που δεν είναι δυνατή η ηλεκτρονική συναλλαγή.</string>
+    <string name="summary_request_no4">Κίνηση για παροχή βοήθειας σε ανθρώπους που βρίσκονται σε ανάγκη ή συνοδεία ανηλίκων μαθητών από/προς το σχολείο.</string>
+    <string name="summary_request_no5">Μετάβαση σε τελετή κηδείας υπό τους όρους που προβλέπει ο νόμος ή μετάβαση διαζευγμένων γονέων ή γονέων που τελούν σε διάσταση που είναι αναγκαία για τη διασφάλιση της επικοινωνίας γονέων και τέκνων, σύμφωνα με τις κείμενες διατάξεις.</string>
+    <string name="summary_request_no6">Σωματική άσκηση σε εξωτερικό χώρο ή κίνηση με κατοικίδιο ζώο, ατομικά ή ανά δύο άτομα, τηρώντας στην τελευταία αυτή περίπτωση την αναγκαία απόσταση 1,5 μέτρου.</string>
+
+
 </resources>

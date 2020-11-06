@@ -184,20 +184,20 @@ public class MainActivity extends AppCompatActivity {
 
     private void initDataForDialog(ArrayList<String> data, ArrayList<String> reasons) {
         //init first data
-        data.add("Μετάβαση σε φαρμακείο ή επίσκεψη στον γιατρό, εφόσον αυτό συνιστάται μετά από σχετική επικοινωνία.");
-        data.add("Μετάβαση σε εν λειτουργία κατάστημα προμηθειών αγαθών πρώτης ανάγκης, όπου δεν είναι δυνατή η αποστολή τους.");
-        data.add("Μετάβαση στην τράπεζα, στο μέτρο που δεν είναι δυνατή η ηλεκτρονική συναλλαγή.");
-        data.add("Κίνηση για παροχή βοήθειας σε ανθρώπους που βρίσκονται σε ανάγκη.");
-        data.add("Μετάβαση σε τελετή(πχ. κηδεία, γάμος, βάφτιση) υπό τους όρους που προβλέπει ο νόμος ή μετάβαση διαζευγμένων γονέων ή γονέων που τελούν σε διάσταση που είναι αναγκαία για την διασφάλιση της επικοινωνίας γονέων και τέκνων, σύμφωνα με τις κείμενες διατάξεις.");
-        data.add("Σύντομη μετακίνηση, κοντά στην κατοικία μου, για ατομική σωματική άσκηση (εξαιρείται οποιαδήποτε συλλογική αθλητική δραστηριότητα) ή για τις ανάγκες κατοικιδίου ζώου");
+        data.add(getResources().getString(R.string.summary_request_no1));
+        data.add(getResources().getString(R.string.summary_request_no2));
+        data.add(getResources().getString(R.string.summary_request_no3));
+        data.add(getResources().getString(R.string.summary_request_no4));
+        data.add(getResources().getString(R.string.summary_request_no5));
+        data.add(getResources().getString(R.string.summary_request_no6));
 
         //init reason titles
-        reasons.add("Φαρμακείο - Ιατρείο");
-        reasons.add("Κατάστημα προμήθειας αγαθών");
-        reasons.add("Τράπεζα");
-        reasons.add("Παροχή βοήθειας");
-        reasons.add("Τελετή - Γονείας σε διάσταση");
-        reasons.add("Άθληση - Ανάγκες κατοικιδίου");
+        reasons.add(getResources().getString(R.string.title_request_no1));
+        reasons.add(getResources().getString(R.string.title_request_no2));
+        reasons.add(getResources().getString(R.string.title_request_no3));
+        reasons.add(getResources().getString(R.string.title_request_no4));
+        reasons.add(getResources().getString(R.string.title_request_no5));
+        reasons.add(getResources().getString(R.string.title_request_no6));
     }
 
     private void init() {
